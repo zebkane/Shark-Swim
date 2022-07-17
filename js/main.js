@@ -8,8 +8,8 @@ canvas.height = 1080;
 
 const player = new Player({
   position : {
-    x : 100,
-    y : 100
+    x : canvas.width / 2 - 50,
+    y : canvas.height / 2 - 50
   },
   size : {
     w : 100,
