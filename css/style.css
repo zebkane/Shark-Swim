@@ -28,7 +28,7 @@ body {
 #timer {
   text-align: center;
   color: white;
-  font-family: fantasy;
+  font-family: sans-serif;
   display: inline-block;
   width: 100vw;
   position: absolute;
