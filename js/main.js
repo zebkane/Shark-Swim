@@ -71,7 +71,7 @@ function spawnEnemies() {
       },
       color : "grey"
     }));
-  }, 5000);
+  }, 4000);
 }
 
 function updateEnemies() {
