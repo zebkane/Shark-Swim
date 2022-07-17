@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffc548;
+}
+
+.game-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.game-ui {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.timer-wrapper {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+#timer {
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  display: inline-block;
+  width: 100vw;
+  position: absolute;
+  top: 3%;
+}
+
+.limb-wrapper {
+  position: absolute;
+}
+
+.limb {
+  width: 1vmax;
+  height: 5vmax;
+  display: inline-block;
+  margin: 1vmax 3vmax;
+}
+
+.limb > img {
+  height: 5vmax;
+}
+
+#canvas {
+  height: 95vh;
+}
